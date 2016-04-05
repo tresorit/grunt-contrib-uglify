@@ -1,7 +1,8 @@
 {
   "name": "grunt-contrib-uglify",
   "description": "Minify javascript files with UglifyJS",
-  "version": "1.0.1",
+  "version": "2.0.1",
+  "private": true,
   "author": {
     "name": "Grunt Team",
     "url": "http://gruntjs.com/"
@@ -19,7 +20,7 @@
     "chalk": "^1.0.0",
     "lodash": "^4.0.1",
     "maxmin": "^1.1.0",
-    "uglify-js": "~2.6.2",
+    "uglify-js": "mishoo/UglifyJS2#harmony",
     "uri-path": "^1.0.0"
   },
   "devDependencies": {
